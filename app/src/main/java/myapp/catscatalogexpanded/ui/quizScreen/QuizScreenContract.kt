@@ -7,7 +7,7 @@ interface QuizScreenContract {
         val questions: List<Question> = emptyList(),
         val currentQuestionIndex: Int = 0,
         val answers: Map<Int, Int> = emptyMap(),
-        val timeLeft: Int = 10,
+        val timeLeft: Int = 100,
         val isQuizFinished: Boolean = false,
         val showResultDialog: Boolean = false,
     )

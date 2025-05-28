@@ -54,7 +54,6 @@ fun ResultScreen(
 
         Button(onClick = {
             nickname?.let { leaderboardScreenViewModel.submitScore(nickname = it, result = score) }
-            mainNavController.navigate("home")
         }
         ) {
             Text("Publish score")
