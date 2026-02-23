@@ -83,7 +83,7 @@ with clear separation of concerns:
 1.  Clone the repository:
 
 ``` bash
-git clone <repo-url>
+git clone https://github.com/NuQrZ/CatsCatalogExpanded.git
 ```
 
 2.  Open the project in Android Studio.
